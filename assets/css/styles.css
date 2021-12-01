@@ -384,6 +384,7 @@ img {
     display: inline-flex;
     align-items: center;
     transition: .3s;
+    padding: 1px 11px 3px;
 
 }
 
