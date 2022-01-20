@@ -1,3 +1,3 @@
 # Coders-Evoke-2.0
 
-new one for event
+New one for events
