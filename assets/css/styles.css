@@ -120,7 +120,7 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4,a {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
 }
@@ -1166,4 +1166,30 @@ img {
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+/* team page by Krupesh*/
+
+.team__image{
+    position: relative;
+  margin: 0 auto;
+  margin-top: -80px;
+  margin-right: 70px;
+    width: 50%;
+}
+.team__image img{
+    border-radius: 50%;
+}
+.team__social{
+    margin: 10px auto;
+
+}
+.team__social a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+    transition: all 200ms ease-in-out;
+}
+.team__social a:hover{
+    color: var(--first-color);
 }
