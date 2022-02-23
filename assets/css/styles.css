@@ -1193,3 +1193,11 @@ img {
 .team__social a:hover{
     color: var(--first-color);
 }
+.team__title{
+    text-align: center;
+}
+.section__hr{
+    width: 4%;
+    margin-bottom: 40px;
+
+}
