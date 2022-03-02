@@ -450,7 +450,7 @@ img {
 /*==================== SERVICES ====================*/
 .services__container {
     gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .services__content {
@@ -1192,4 +1192,12 @@ img {
 }
 .team__social a:hover{
     color: var(--first-color);
+}
+.team__title{
+    text-align: center;
+}
+.section__hr{
+    width: 4%;
+    margin-bottom: 40px;
+
 }
