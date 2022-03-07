@@ -158,6 +158,10 @@ img {
     text-align: center;
 }
 
+.team__name{
+    text-align: center;
+}
+
 /*==================== LAYOUT ====================*/
 .container {
     max-width: 768px;
