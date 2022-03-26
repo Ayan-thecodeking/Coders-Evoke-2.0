@@ -1,0 +1,141 @@
+*{
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+  } 
+  
+  body
+  {
+    font-family: Arial;
+    }
+  
+  .heading
+  {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  
+  .para
+  {
+    padding:.5rem 1rem 1rem 1rem;
+    font-weight: bold;
+  }
+  
+  .section-header{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    padding-top: 1.5rem;
+    align-items: center;
+    text-align: center;
+  }
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab .tablinks1 {
+    background-color: inherit;
+    display: flexbox;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+   
+  }
+  .tab .tablinks2 {
+    background-color: inherit;
+    display: flexbox;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+   
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  /* .tab button.active {
+    background-color: #ccc;
+  } */
+  
+  /* Style the tab content */ */
+  .tabcontent {
+    /* display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; */
+    display: grid;
+    gap: 1.5rem;
+  }
+  .box{
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .box1{
+    max-width: 768px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+  
+  /* Fade in tabs */
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  
+  /* upcoming and past events */
+  
+  /* #container-event-details{
+    position: relative;height: 100vh;
+    width: 100vw;
+  } */
+  #upcoming,#past{
+    /* position: absolute; */
+    height:100% ;
+    width: 100%;
+  
+  }
+  #past{
+    display: none;
+  }
+  
+  #upcoming_btn,#past_btn{
+    padding: 0.5rem 1rem;
+    background: #ed1367;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 5px #00000073;
+    width: 6rem;
+  }
+
+  .Eventdiv {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    margin: 3rem 3rem 3rem 3rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    transition: .3s;
+}
